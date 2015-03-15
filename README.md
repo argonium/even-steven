@@ -1,5 +1,5 @@
-# even-steven
-Even Steven is a class I wrote to check the distribution of the output of the Shuffler program. This class will probably not be useful to anyone other than myself, but I'm posting it here so I can easily point to it in case someone says the Shuffler output is biased.
+# Even Steven
+Even Steven is a class I wrote to check the distribution of the output of the [Shuffler](https://github.com/argonium/shuffler) program. This class will probably not be useful to anyone other than myself, but I'm posting it here so I can easily point to it in case someone says the Shuffler output is biased.
 
 The input to the program is multiple rows of output from the Shuffler program; each row is of the format "n n n n n n n" (a series of numbers). If Shuffler is called with a value of 5 (the size of the list), then the output row will be the numbers zero through four in a random order (e.g., "3 1 4 2 0"). So, the Shuffler program should be called many, many times, in order to generate a large sample set for Even Steven.
 
